@@ -13,10 +13,13 @@ var varType = function (value) {
 }
 
 varType("pizza")
-varType(5)
+varType(null)
 varType([1, 2, 3])
 varType({
     nick: "eldegende",
     age: 15,
     likes: ["games", "pizza", "especially minecraft", "java"]
 })
+
+var arr = [[[[[[[2]]]]]]]
+console.log(arr.filter(val => val.includes(2)))
