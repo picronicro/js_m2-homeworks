@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.puzzle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px;
+    width: 1500px;
+}
+
+.texts {
+    width: 70%;
+}
+
+.showAnswer {
+    width: 15%;
+}
+
+h3 {
+    font-size: 0;
+}
+
+/*  other */
+
+.show h3 {
+    font-size: 24px;
+}
+
